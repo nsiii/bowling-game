@@ -40,17 +40,17 @@ class Bowling
     # スペアの時は、現在の配列番号に+1した配列の0番目の数値を加算する。
 end
 
-# scores = [
-    # [7, 3],
-    # [9, 0],
-    # [8, 1],
-    # [10],
-    # [5, 5],
-    # [3, 3],
-    # [10],
-    # [10],
-    # [5, 3],
-    # [4, 6, 9]
-# ]
-# bowling = Bowling.new(scores)
-# bowling.result
+scores = [
+    [7, 3],
+    [9, 0],
+    [8, 1],
+    [10],
+    [5, 5],
+    [3, 3],
+    [10],
+    [10],
+    [5, 3],
+    [4, 6, 9]
+]
+bowling = Bowling.new(scores)
+bowling.result
